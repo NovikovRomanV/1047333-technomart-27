@@ -6,13 +6,17 @@
   </head>
   <body>
 	<header>
-		<a href="index.html"><img src="" width="" height="" alt="Логотип «Техномарт»"></a>
-	
 		<div>
-			<input type="search" name="search">Поиск
+			<a href="index.html"><img src="" width="" height="" alt="Логотип «Техномарт»"></a>
+	
+	 		<form action="https://echo.htmlacademy.ru" method="get">
+			<label class="visually-hidden" for="header-search">Поиск:</label>
+			<input type="search" name="text" id="header-search" placeholder="Поиск:">
+			
 			<a href="">Закладки</a>
 			<a href="">Корзина</a>
 			<a href="">Оформить заказ</a>
+			</form>
 		</div>
 		<h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
 		<address>
@@ -20,6 +24,7 @@
 			г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
 		</address>
 		<div>
+			<!--внизу для них сделал формы-->
 			<a href="">Войти</a>
 			<a href="">Регистрация</a>
 		</div>
@@ -38,12 +43,12 @@
 	
 	<main>
 		<section>
-			<h2>Товары и услуги для стройки</h2>
+			<h2 class="visually-hidden">Товары и услуги для стройки</h2>
 			<ul>
 				<li>
 					<img src="" width="" height="" alt="иконка бакнки краски">
 					<span>new</span>
-					<a href="">на любой вкус</a>
+					<a href="">на любой вкус</a><!--можно текст написать без заглавной буквы, так как потом удобнее все буквы разом делать заглавными?-->
 					<p>Материалы</p>	
 				</li>
 				<li>
@@ -85,26 +90,26 @@
 			<p>все популярные товары</p>
 			<ul>
 				<li>
-					<img src="img/Perforator_9000.png" width="218" height="170" alt="Перфоратор синий с проводом">
-  	 				<h3>Перфоратор BOSCH BFG 9000</h3>
+					<img src="img/perforator_9000.png" width="218" height="170" alt="Перфоратор синий с проводом">
+  	 				<h3>Перфоратор BOSCH BFG 9000</h3><!--тут в названии перфоратора марка и модель должны быть тоже маленькими буквами?(потом в css переделываем их в большие)-->
   	 			  	<p><del>32500 Р.</del></p>
   	 			  	<span>25500 Р.</span>
   	 			</li>
 				<li>
-						<img src="img/Perforator_3000.png" width="218" height="170" alt="Перфоратор синий короткий с аккумулятором">
+						<img src="img/perforator_3000.png" width="218" height="170" alt="Перфоратор синий короткий с аккумулятором">
   	 					<h3>Перфоратор BOSCH BFG 3000</h3>
   	 			  	 	<p><del>22300 Р.</del></p>
   	 			  	 	<span>15500 Р.</span>
   	 			</li>
 				<li>
-					<img src="img/Perforator_6000.png" width="218" height="170" alt="Перфоратор синий длиный с аккумулятором">
+					<img src="img/perforator_6000.png" width="218" height="170" alt="Перфоратор синий длиный с аккумулятором">
   	 				<h3>Перфоратор BOSCH BFG 6000</h3>
   	 			  	<p><del>30500 Р.</del></p>
   	 			  	<span>25500 Р.</span>
   	 			</li>
 				<li>
 					<span>new</span> 					
-					<img src="img/Perforator_2000.png" width="218" height="170" alt="Перфоратор синий короткий с аккумулятором">
+					<img src="img/perforator_2000.png" width="218" height="170" alt="Перфоратор синий короткий с аккумулятором">
   	 				<h3>Перфоратор BOSCH BFG 2000</h3>
   	 			  	<span>12500 Р.</span>
   	 			</li>
@@ -119,25 +124,25 @@
 					<a href=""><img src="img/bosch.png" width="126" height="37" alt="Bosch"></a>
 				</li>
 				<li>
-					<a href=""><img src="img/Makita.png" width="123" height="40" alt="Makita"></a>
+					<a href=""><img src="img/makita.png" width="123" height="40" alt="Makita"></a>
 				</li>
 				<li>
-					<a href=""><img src="img/DeWALT.png" width="146" height="44" alt="DeWalt"></a>
+					<a href=""><img src="img/dewalt.png" width="146" height="44" alt="DeWalt"></a>
 				</li>
 				<li>
-					<a href=""><img src="img/Interskol.png" width="200" height="88" alt="Интерскол"></a>
+					<a href=""><img src="img/interskol.png" width="200" height="88" alt="Интерскол"></a>
 				</li>
 				<li>
-					<a href=""><img src="img/Hitachi.png" width="169" height="31" alt="Hitachi"></a>
+					<a href=""><img src="img/hitachi.png" width="169" height="31" alt="Hitachi"></a>
 				</li>
 				<li>
-					<a href=""><img src="img/LG.png" width="121" height="73" alt="LG"></a>
+					<a href=""><img src="img/lg.png" width="121" height="73" alt="LG"></a>
 				</li>
 				<li>
-					<a href=""><img src="img/AEG.png" width="151" height="96" alt="AEG"></a>
+					<a href=""><img src="img/aeg.png" width="151" height="96" alt="AEG"></a>
 				</li>
 				<li>
-					<a href=""><img src="img/Metabo.png" width="204" height="69" alt="Metabo"></a>
+					<a href=""><img src="img/metabo.png" width="204" height="69" alt="Metabo"></a>
 				</li>
 			</ul>
 		</section>
@@ -168,7 +173,7 @@
 				<li>ЖелДорЭкспедиция</li>
 			</ul>
 			<a href="">подробнее о компании</a>
-        </section>
+      </section>
 
       <section>
         	<h2>контакты</h2>
@@ -176,13 +181,14 @@
         		Вы можете забрать товар сами,
         		заехав в на офис:
         	</p>
-        	<a href=""><img src="img/map-small.jpg" width="300" height="158" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8"></a>
+        	<a href=""><img src="img/map-big.jpg" width="940" height="446.14" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8"></a>
+        	<span></span> <!--кнопка закрытия-->
         	<a href="">заблудились? напишите нам!</a>
       </section>	
 	</main>
 
    <section>
-   	<h2>Дополнительная навигация</h2>
+   	<h2 class="visually-hidden">Дополнительная навигация</h2>
    	<a href="index.html"><img src="" width="" height="" alt="Логотип «Техномарт»"></a>
    	<ul>
    		<li><a href="">Новости</a></li>
@@ -218,9 +224,61 @@
    </footer>
    
    <section>
-   	<h2>Написать письмо</h2>
-   	<!-- форма -->
-   	<button type="button">отправить</button>
+   	<h2 class="visually-hidden">Написать письмо</h2>
+   	<form action="https://echo.htmlacademy.ru" method="post">
+   		<p>
+   			<label for="name-letter">Ваше имя:</label>
+   			<input type="text" name="name" id="name-letter" placeholder="Имя Фамилия">
+   			<label for="email-letter">Ваш e-mail:</label>
+   			<input type="email" name="email" id="email-letter" placeholder="email@example.com">
+   		</p>
+   		<p>
+   			<label for="text-letter">Текст письма:</label>
+   		</p>
+   		<p>	
+   			<textarea name="comment" id="text-letter" rows="10" cols="50" placeholder="В свободной форме"></textarea>
+   		</p>
+   		<button type="submit">отправить</button>
+   		<span></span> <!--кнопка закрытия-->
+ 	   </form>
    </section>
+	<!--Для входа. Можно форму так и оставить обернутую div или поменять на section? В форме оставить тег <p> или сделать списком?
+	    кнопку войти и закрыть оборачивать в div?-->
+   <div>
+   	<form action="https://echo.htmlacademy.ru" method="post">
+			<p>
+				<label for="name-enter">Имя</label>
+   			<input type="text" name="username" id="name-enter" placeholder="Имя">
+   		</p>
+   		<p>
+   			<label for="password-enter">Пароль</label>
+   			<input type="password" name="password" id="password-enter" placeholder="Пароль">
+			</p>
+			<p>
+				<label><input type="checkbox">Запомнить меня!</label>
+			</p>
+			<input type="submit" value="Войти">
+			<span></span> <!--кнопка закрытия-->
+		</form>
+	</div>	
+	<!--Для регистрации-->
+	<div>
+		<form action="https://echo.htmlacademy.ru" method="post">
+			<p>
+				<label for="name-registration">Имя</label>
+				<input type="text" name="username" id="name-registration" placeholder="Имя">
+			</p>
+			<p>
+				<label for="password-first">Пароль</label>
+				<input type="password" name="password" id="password-first" placeholder="Пароль">
+			</p>
+			<p>
+				<label for="password-replay">Повторить пароль</label>
+				<input type="password" name="password" id="password-replay" placeholder="Повторить пароль">
+			</p>
+			<input type="submit" value="Регистрация">
+			<span></span> <!--кнопка закрытия-->
+		</form>
+	</div>
   </body>
 </html>
