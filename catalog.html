@@ -65,7 +65,10 @@
   	 	
   	 	<section>
   	 		<h3 class="visually-hidden">Фильтр товаров</h3>
-  	 		<form action="https://echo.htmlacademy.ru" method="get">
+  	 		<form action="https://echo.htmlacademy.ru" method="get" oninput="priceoutput.value=price.value">
+  	 			<label for="filter-price">Цена:</label> <!--как я понял что бы сделать два ползунка нужен js-->
+  	 			<input type="range" name="price" id="filter-price" min="0" max="30000" step="500" value="30000">
+  	 			<output name="priceoutput"></output>
   	 			<fieldset>
   	 				<legend>Производители:</legend>
   	 				<ul>
@@ -111,7 +114,7 @@
  	   </section>
   	 	
   	 	<section>
-  	 		<h2>Каталог товаров</h2>
+  	 		<h2 class="visually-hidden">Каталог товаров</h2>
   	 			<ul>
   	 				<li>
   	 					<img src="img/perforator_3000.png" width="218" height="170" alt="Перфоратор синий короткий с аккумулятором">
