@@ -1,85 +1,88 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru"><!--в валидаторе выскакивает ошибка "Таблицы стилей не должны включать синтаксис HTML" непойму что хотят?-->
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+	 <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i&display=swap&subset=cyrillic" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-	<header>
-		<div>
-			<a href="index.html"><img src="" width="" height="" alt="Логотип «Техномарт»"></a>
-	 		<form action="https://echo.htmlacademy.ru" method="get">
-				<label class="visually-hidden" for="header-search">Поиск:</label>
-				<input type="search" name="text" id="header-search" placeholder="Поиск:">
+	<header class="header">
+		<div class="header-container">
+			<a class="header-logo" href="index.html"><img src="img/logo.svg" width="109" height="18" alt="Логотип «Техномарт»"></a>
+	 		<form class="header-search" action="https://echo.htmlacademy.ru" method="get">
+				<label class="visually-hidden" for="header-searchs">Поиск:</label>
+				<input type="search" name="text" id="header-searchs" placeholder="Поиск:">
 			</form>
-			<a href="">Закладки</a>
-			<a href="">Корзина</a>
-			<a href="">Оформить заказ</a>
+			<a class="header-bookmark" href="">Закладки</a>
+			<a class="header-cart" href="">Корзина</a>
+			<a class="header-order" href="">Оформить заказ</a>
 		</div>
 
-		<h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+		<h1 class="header-title">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
 
-		<address>
+		<address class="header-address">
 			<a href="tel:+78125550555">+7 (812) 555-05-55</a><br>
 			г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
 		</address>
 
-		<div>
-			<!--внизу для них сделал формы-->
-			<a href="">Войти</a>
-			<a href="">Регистрация</a>
-		</div>
-
-		<nav>
-			<ul>
-				<li><a href="index.html">Главная</a></li>
-				<li><a href="">Компания</a></li>
-				<li><a href="catalog.html">Каталог</a></li>
-				<li><a href="">Новости</a></li>
-				<li><a href="">Спецпредложения</a></li>
-				<li><a href="">Доставка</a></li>
-				<li><a href="">Контакты</a></li>
+			<a class="user-login" href="">Войти</a>
+			<a class="user-registration" href="">Регистрация</a>
+		
+		<nav class="header-nav">
+			<ul class="header-nav-site">
+				<li class="header-nav-item"><a href="index.html">Главная</a></li>
+				<li class="header-nav-item"><a href="">Компания</a></li>
+				<li class="header-nav-item"><a href="catalog.html">Каталог</a></li>
+				<li class="header-nav-item"><a href="">Новости</a></li>
+				<li class="header-nav-item"><a href="">Спецпредложения</a></li>
+				<li class="header-nav-item"><a href="">Доставка</a></li>
+				<li class="header-nav-item"><a href="">Контакты</a></li>
 			</ul>
 		</nav>
 	</header>	
 	
-	<main>
-		<section>
+	<main class="main">
+		<section class="main-features">
 			<h2 class="visually-hidden">Товары и услуги для стройки</h2>
-			<ul>
-				<li>
+			<ul class="features-list">
+				<li class="feature-item-paint">
 					<img src="" width="" height="" alt="Иконка банки краски">
 					<span>new</span>
 					<a href="">На любой вкус</a>
 					<p>Материалы</p>	
 				</li>
-				<li>
+				<li class="feature-item-tool">
 					<img src="" width="" height="" alt="Иконка инструмента">
 					<a href="">На все случаи</a>
 					<p>Инструмент</p>
 				</li>
-				<li>
+				<li class="feature-item-tractor">
 					<img src="" width="" height="" alt="Иконка трактора">
 					<a href="">Для стройки</a>
 					<p>Техника</p>
 				</li>
-				<li>
-					<figure>
+				<li class="feature-slider">
+					<figure class="feature-slider-content">
 						<a href="">
 							<img src="img/man-with-drill.jpg" width="620" height="266" alt="Мужчина сверлит стену">
 	      			</a>
 	      			<figcaption>Дрели Соседям на радость!</figcaption>				
 					</figure>
-					<button type="button">Назад</button>
-					<button type="button">Вперед</button>
+					<button class="button-slider-first" type="button">Первый слайд</button>
+					<button class="button-slider-second" type="button">Второй слайд</button>
+					<button class="button-slider-back" type="button">Назад</button>
+					<button class="button-slider-next" type="button">Вперед</button>
 					<a href="catalog.html">Открыть каталог</a>
 				</li>
-				<li>
+				<li class="feature-item-cart">
 					<img src="" width="" height="" alt="Иконка корзины с товаром">
 					<a href="">На 350 товаров</a>
 					<p>Скидки 50%</p>				
 				</li>
-				<li>
+				<li class="feature-item-car">
 					<img src="" width="" height="" alt="Автомобиль">
 					<a href="">Бесплатно</a>
 					<p>Доставка</p>
@@ -87,41 +90,41 @@
 			</ul>
 		</section>
 
-		<section>
+		<section class="popular-goods">
 			<h2>Популярные товары:</h2>
-			<p>Все популярные товары</p>
-			<ul>
-				<li>
+			<a href="">Все популярные товары</a>
+			<ul class="catalog-list">
+				<li class="catalog-item">
 					<img src="img/perforator_9000.png" width="218" height="170" alt="Перфоратор синий с проводом">
   	 				<h3>Перфоратор BOSCH BFG 9000</h3>
   	 			  	<p><del>32500 Р.</del></p>
-  	 			  	<span>25500 Р.</span>
+  	 			  	<span class="catalog-price">25500 Р.</span>
   	 			</li>
-				<li>
+				<li class="catalog-item">
 					<img src="img/perforator_3000.png" width="218" height="170" alt="Перфоратор синий короткий с аккумулятором">
   	 				<h3>Перфоратор BOSCH BFG 3000</h3>
   	 			  	<p><del>22300 Р.</del></p>
-  	 			  	<span>15500 Р.</span>
+  	 			  	<span class="catalog-price">15500 Р.</span>
   	 			</li>
-				<li>
+				<li class="catalog-item">
 					<img src="img/perforator_6000.png" width="218" height="170" alt="Перфоратор синий длиный с аккумулятором">
   	 				<h3>Перфоратор BOSCH BFG 6000</h3>
   	 			  	<p><del>30500 Р.</del></p>
-  	 			  	<span>25500 Р.</span>
+  	 			  	<span class="catalog-price">25500 Р.</span>
   	 			</li>
-				<li>
-					<span>new</span> 					
+				<li class="catalog-item">
+					<span class="icon-new">new</span> 					
 					<img src="img/perforator_2000.png" width="218" height="170" alt="Перфоратор синий короткий с аккумулятором">
   	 				<h3>Перфоратор BOSCH BFG 2000</h3>
-  	 			  	<span>12500 Р.</span>
+  	 			  	<span class="catalog-price">12500 Р.</span>
   	 			</li>
 			</ul>
 		</section>
 
-		<section>
+		<section class="popular-manufacturer">
 			<h2>Популярные производители:</h2>
 			<p>Все производители</p>
-			<ul>
+			<ul class="manufacturer-list">
 				<li>
 					<a href=""><img src="img/bosch.png" width="126" height="37" alt="BOSCHI"></a>
 				</li>
@@ -149,18 +152,38 @@
 			</ul>
 		</section>
 
-		<section>
+		<section class="services">
 			<h2>Сервисы</h2>
 			<p>
 				Хороший интернет-магазин отличается от плохого не только ценами!
 				Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
 			</p>
-			<!-- форма -->
-			<img src="" width="" height="" alt="Грузовик">
+			<ul class="services-list">
+				<li class="services-delivery">
+					<button class="button-delivery" type="button">Доставка</button>
+					<section class="delivery">
+							<h2>Доставка</h2>
+							<p>
+								Мы с удовольствием доставим ваш товар прямо
+								к вашему подъезду совершенно бесплатно!
+								Ведь мы неплохо заработаем,
+								поднимая его на ваш этаж!
+							</p>
+							<img class="delivery-truck" src="" width="" height="" alt="Грузовик">
+					</section>
+				</li>
+				<li class="services-warranty">
+					<button class="button-warranty" type="button">Гарантия</button>
+				</li>
+				<li class="services-credit">
+					<button class="button-credit" type="button">Кредит</button>
+				</li>
+			</ul>
+			
 		</section>
 
-		<section>
-			<h2>Компания «Техномарт»</h2>
+		<section class="about-company">
+			<h2 class="company-name">Компания «Техномарт»</h2>
 			<p>
 				Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
 				строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.
@@ -169,7 +192,7 @@
 				Мы можем доставить ваш товар в самые отдаленные точки России!
 				Техномарт работает со многими транспортными компаниями:
 			</p>
-			<ul>
+			<ul class="transport-companies">
 				<li>Деловые линии</li>
 				<li>Автотрейдинг</li>
 				<li>ЖелДорЭкспедиция</li>
@@ -177,107 +200,106 @@
 			<a href="">Подробнее о компании</a>
       </section>
 
-      <section>
-        	<h2>Контакты</h2>
+      <section class="contact">
+        	<h2 class="contact-heading">Контакты</h2>
         	<p>
         		Вы можете забрать товар сами,
         		заехав в на офис:
         	</p>
-        	<a href=""><img src="img/map-big.jpg" width="940" height="446.14" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8"></a>
-        	<button type="button">Закрыть</button> 
-        	<a href="">Заблудились? напишите нам!</a>
+        	<a class="map" href=""><img src="img/map-big.jpg" width="940" height="446.14" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8"></a>
+        	<button class="button-contact" type="button">Закрыть</button> 
+        	<a class="contact-letter" href="">Заблудились? напишите нам!</a>
       </section>	
 	</main>
 
-   <section>
+   <section class="footer-nav">
    	<h2 class="visually-hidden">Дополнительная навигация</h2>
-   	<a href="index.html"><img src="" width="" height="" alt="Логотип «Техномарт»"></a>
-   	<ul>
-   		<li><a href="">Новости</a></li>
-   		<li><a href="catalog.html">Каталог</a></li>
-   		<li><a href="">Доставка</a></li>
-   		<li><a href="">Контакты</a></li>
+   	<a class="bottom-logo" href="index.html"><img src="img/logo.svg" width="109" height="18" alt="Логотип «Техномарт»"></a>
+   	<ul class="footer-nav-first">
+   		<li class="footer-nav-first-item"><a href="">Новости</a></li>
+   		<li class="footer-nav-first-item"><a href="catalog.html">Каталог</a></li>
+   		<li class="footer-nav-first-item"><a href="">Доставка</a></li>
+   		<li class="footer-nav-first-item"><a href="">Контакты</a></li>
    	</ul>
-   	<address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
+   	<address class="bottom-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
    		<a href="tel:+78125550555">+7 (812) 555-05-55</a>
    	</address>
-   	<ul>
-   		<li><a href="">Материалы</a></li>
-   		<li><a href="">Техника</a></li>
-   		<li><a href="">Инструмент</a></li>
-   		<li><a href="">Спецпредложения</a></li>
+   	<ul class="footer-nav-next">
+   		<li class="footer-nav-next-item"><a href="">Материалы</a></li>
+   		<li class="footer-nav-next-item"><a href="">Техника</a></li>
+   		<li class="footer-nav-next-item"><a href="">Инструмент</a></li>
+   		<li class="footer-nav-next-item"><a href="">Спецпредложения</a></li>
    	</ul>
    </section>
    
-   <footer>
+   <footer class="footer">
    	<p>© 2010-2017 Компания «Техномарт»</p>
    	<p>Все права защищены</p>
-   	<section>
+   	<section class="footer-social">
    		<h2 class="visually-hidden">Социальные сети</h2>
    		<ul>
-   			<li><a href="">Вконтакте</a></li>
-   			<li><a href="">Фейсбук</a></li>
-   			<li><a href="">Инстаграм</a></li>
+   			<li><a class="social-button" href="">Вконтакте</a></li>
+   			<li><a class="social-button" href="">Фейсбук</a></li>
+   			<li><a class="social-button" href="">Инстаграм</a></li>
    		</ul>
    	</section>
    	<p>Обратная связь:</p>
-   	<p><a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
+   	<p><a class="footer-feedback" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
    	<p>Разработано -</p>
-   	<p><a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
+   	<p><a class="footer-copyright" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
    </footer>
    
-   <section>
+   <section class="write-letter">
    	<h2 class="visually-hidden">Написать письмо</h2>
-   	<form action="https://echo.htmlacademy.ru" method="post">
+   	<form class="letter-form" action="https://echo.htmlacademy.ru" method="post">
    		
-   			<label for="name-letter">Ваше имя:</label>
-   			<input type="text" name="name" id="name-letter" placeholder="Имя Фамилия">
+   			<label class="write-name" for="name-letters">Ваше имя:</label>
+   			<input class="write-name-input" type="text" name="name" id="name-letters" placeholder="Имя Фамилия">
    			
-   			<label for="email-letter">Ваш e-mail:</label>
-   			<input type="email" name="email" id="email-letter" placeholder="email@example.com">
+   			<label class="letter-email" for="email-letters">Ваш e-mail:</label>
+   			<input class="letter-email-input" type="email" name="email" id="email-letters" placeholder="email@example.com">
    		
-   			<label for="text-letter">Текст письма:</label>
-   			
-   			<textarea name="comment" id="text-letter" rows="10" cols="50" placeholder="В свободной форме"></textarea>
+   			<label class="letter-text" for="text-letters">Текст письма:</label>
+   			<textarea class="letter-textarea" name="comment" id="text-letters" rows="10" cols="50" placeholder="В свободной форме"></textarea>
    		
-   		<button type="submit">Отправить</button>
-   		<button type="button">Закрыть</button> 
+   		<button class="button-send-letter" type="submit">Отправить</button>
+   		<button class="button-close-letter" type="button">Закрыть</button> 
  	   </form>
    </section>
 	
-   <section>
+  <!-- <section class="private-office">
    	<h2 class="visually-hidden">Вход в личный кабинет</h2>
-   	<form action="https://echo.htmlacademy.ru" method="post">
+   	<form class="private-office-form" action="https://echo.htmlacademy.ru" method="post">
 			
-				<label for="name-enter">Имя</label>
-   			<input type="text" name="user-name" id="name-enter" placeholder="Имя">
+				<label class="office-user" for="name-enter">Имя</label>
+   			<input class="office-user-input" type="text" name="user-name" id="name-enter" placeholder="Имя">
    		   		
-   			<label for="password-enter">Пароль</label>
-   			<input type="password" name="user-password" id="password-enter" placeholder="Пароль">
+   			<label class="office-password" for="password-enter">Пароль</label>
+   			<input class="office-password-input" type="password" name="user-password" id="password-enter" placeholder="Пароль">
 			
-				<label><input type="checkbox">Запомнить меня!</label>
+				<label class="office-checkbox"><input type="checkbox">Запомнить меня!</label>
 			
-			<button type="submit">Войти</button>
-			<button type="button">Закрыть</button> 
+			<button class="button-office-enter" type="submit">Войти</button>
+			<button class="button-office-close" type="button">Закрыть</button> 
 		</form>
 	</section>	
 	
-	<section>
+	<section class="registration">
 		<h2 class="visually-hidden">Регистрация нового пользователя</h2>
-		<form action="https://echo.htmlacademy.ru" method="post">
+		<form class="registration-form" action="https://echo.htmlacademy.ru" method="post">
 			
-				<label for="name-registration">Имя</label>
-				<input type="text" name="username" id="name-registration" placeholder="Имя">
+				<label class="registration-user" for="name-registration">Имя</label>
+				<input class="registration-user-input" type="text" name="user-login" id="name-registration" placeholder="Имя">
 			
-				<label for="password-first">Пароль</label>
-				<input type="password" name="password" id="password-first" placeholder="Пароль">
+				<label class="registration-password-first" for="password-first">Пароль</label>
+				<input class="registration-password-first-input" type="password" name="password" id="password-first" placeholder="Пароль">
 			
-				<label for="password-replay">Повторить пароль</label>
-				<input type="password" name="password" id="password-replay" placeholder="Повторить пароль">
+				<label class="registration-password-replay" for="password-replay">Повторить пароль</label>
+				<input class="registration-password-replay-input" type="password" name="password" id="password-replay" placeholder="Повторить пароль">
 			
-			<button type="submit">Регистрация</button>
-			<button type="button">Закрыть</button> 
+			<button class="button-registration" type="submit">Регистрация</button>
+			<button class="button-registration-close" type="button">Закрыть</button> 
 		</form>
-	</section>
+	</section>-->
   </body>
 </html>
