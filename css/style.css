@@ -1,58 +1,8 @@
-/*Проверь пожалуйста правельность подключения шрифта через link и тут в css. 
-В папку fonts нужно что то еще кидать?*/ 
-@font-face {
-	font-family: "Cuprum"; 
-	src: url(../fonts/cuprum.woff2) format("woff2");
-	src: url(../fonts/cuprum.woff) format("woff");
-	font-weight: 400;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Cuprum";
-	src: url(../fonts/cuprumbold.woff2) format("woff2");
-	src: url(../fonts/cuprumbold.woff) format("woff"); 
-	font-weight: 700;
-	font-style: normal;
-}
-
-@font-face {
-   font-family: "Cuprum";
-   src: url(../fonts/cuprumbolditalic.woff2) format("woff2");
-   src: url(../fonts/cuprumbolditalic.woff) format("woff");
-   font-weight: 700;
-   font-style: italic;
-}
-
-@font-face {
-   font-family: "Cuprum";
-   src: url(../fonts/cuprumitalic.woff2) format("woff2");
-   src: url(../fonts/cuprumitalic.woff) format("woff");
-   font-weight: 400;
-   font-style: italic;
-}
-
-@font-face {
-   font-family: "Pt Sans";
-   src: url(../fonts/ptsans.woff2) format("woff2");
-   src: url(../fonts/ptsans.woff) format("woff");
-   font-weight: 400;
-   font-style: normal;
-}
-
-@font-face {
-   font-family: "Pt Sans";
-   src: url(../fonts/ptsansbold.woff2) format("woff2");
-   src: url(../fonts/ptsansbold.woff) format("woff");
-   font-weight: 700;
-   font-style: normal;
-}
-
 body {
    margin: 0;
    padding: 0;
 
-   font-family: "Cuprum", "PT Sans", Arial, sans-serif;
+   font-family: "Cuprum", "Arial", sans-serif;
    font-size: 14px;
    line-height: 24px;
    font-weight: 400;
@@ -67,7 +17,7 @@ a {
 }
 
 .header {
-   font-family: "Cuprum", Arial, sans-serif;
+   font-family: "Cuprum", "Arial", sans-serif;
    font-style: normal;
 
    background-color: #f3f7f9;
@@ -93,7 +43,8 @@ a {
 	background-color: #ee3643;
 }
 
-.header-logo:hover {
+.header-logo:hover
+.header-logo:focus {
 	background-color: #ca2c37;
 }
 
@@ -105,7 +56,7 @@ a {
 	background-color: #293449;
 	border: 0;
 }
-/*Можно по другому сделать? или это единственные варианты?*/
+
 .header-search ::-webkit-input-placeholder {
 	color:#ffffff;
 }
@@ -122,7 +73,6 @@ a {
 	color:#ffffff;
 }
 
-
 .header-container a {
    color: #ffffff;
 }
@@ -131,7 +81,8 @@ a {
 	background-color: #63a63e;
 }
 
-.header-order:hover {
+.header-order:hover
+.header-order:focus {
 	background-color: #5fbb2d;
 }
 
@@ -140,7 +91,7 @@ a {
 }
 
 .header-title {
-   font-family: "Cuprum";
+   font-family: "Cuprum", "Arial", sans-serif;
    font-style: italic;
    font-size: 16px;
    line-height: 23px;
@@ -149,7 +100,7 @@ a {
 }
 
 .header-address {
-   font-family: "Cuprum";
+   font-family: "Cuprum", "Arial", sans-serif;
    font-style: normal;
    font-size: 14px;
    line-height: 24px;
@@ -167,7 +118,7 @@ a {
 }
 
 .user-login {
-   font-family: "Cuprum";
+   font-family: "Cuprum", "Arial", sans-serif;
    font-style: normal;
    font-size: 21px;
    line-height: 21px;
@@ -177,7 +128,12 @@ a {
 }
 
 .user-login:hover,
-.user-registration:hover {
+.user-login:focus {
+	color: #ee3643;
+}
+
+.user-registration:hover
+.user-registration:focus {
 	color: #ee3643;
 }
 
@@ -188,7 +144,7 @@ a {
 }
 
 .user-registration {
-   font-family: "Cuprum";
+   font-family: "Cuprum", "Arial", sans-serif;
    font-style: normal;
    font-size: 21px;
    line-height: 21px;
@@ -198,7 +154,7 @@ a {
 }  
 
 .header-nav {
-	font-family: "Cuprum";
+	font-family: "Cuprum", "Arial", sans-serif;
    font-style: normal;
    font-size: 17px;
    line-height: 17px;
@@ -215,7 +171,8 @@ a {
 	list-style: none;
 }
 
-.header-nav-item:hover {
+.header-nav-item:hover
+.header-nav-item:focus {
 	background-color: #293449;
 
 }
@@ -225,8 +182,192 @@ a {
 	background-color: #1d2739;
 }
 
+.product-services-list {
+	list-style: none;
+}
+
+.product-services-list p {
+	font-family: "Cuprum", "Arial", sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 30px;
+
+	color: #ffffff;
+}
+
+.item-paint {
+	background-color: #ffbf47;
+}
+
+.item-tool {
+	background-color: #3bbce3;
+}
+
+.item-tractor {
+	background-color: #dc91d8;
+}
+
+.item-cart {
+	background-color: #8ed78f;
+}
+
+.item-car {
+	background-color: #ffc047;
+}
+
+.button-product-services {
+	font-family: "Cuprum", "Arial", sans-serif;
+   font-style: normal;
+   font-size: 14px;
+   line-height: 18px;
+
+   color: #ffffff;
+   background-color: rgba(0, 0, 0, 0.1);
+}
+
+.button-product-services:hover,
+.button-product-services:focus {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.button-product-services:active {
+	background-color: rgb(0, 0, 0, 0.3);
+}
+
+.button-slider-catalog {
+	font-family: "Cuprum", "Arial", sans-serif;
+   font-style: normal;
+	font-size: 14px;
+   line-height: 18px;
+	
+	color: #ffffff;
+	background-color: #ee3643;
+}
+
+.button-slider-catalog:hover {
+	background-color: #ca2c37;
+}
+
+.button-slider-catalog:active {
+	background-color: #ba2732;
+}
+
+.popular-product-box {
+	background-color: #f9f5f0;
+}
+
+.popular-product-box h2 {
+	font-family: "Cuprum", "Arial", sans-serif;
+   font-style: normal;
+   font-size: 30px;
+	line-height: 30px;
+
+	color: #32425c;
+}
+
+.button-popular-product {
+	font-family: "Cuprum", "Arial", sans-serif;
+   font-style: normal;
+   font-size: 13px;
+	line-height: 24px;
+
+	color: #ffffff;
+	background-color: #ee3643;
+}
+
+.button-popular-product:hover
+.button-popular-product:focus {
+	background-color: #ca2c37;
+}
+
+.button-popular-product:active {
+	background-color: #ba2732;
+}
+
+.popular-manufacturer-box {
+	background-color: #f9f5f0;
+}
+
+.popular-manufacturer-box h2 {
+	font-family: "Cuprum", "Arial", sans-serif;
+   font-style: normal;
+   font-size: 30px;
+	line-height: 30px;
+
+	color: #32425c;
+}
+
+.manufacturer-list {
+	list-style: none;
+}
+
+.button-popular-manufacturer {
+	font-family: "Cuprum", "Arial", sans-serif;
+	font-style: normal;
+   font-size: 13px;
+	line-height: 24px;
+
+	color: #ffffff;
+	background-color: #ee3643
+}
+
+.button-popular-manufacturer:hover,
+.button-popular-manufacturer:focus {
+	background-color: #ca2c37;
+}
+
+.button-popular-manufacturer:active {
+	background-color: #ba2732;
+}
+
+.services {
+	background-color: #f4f8fa;
+}
+
+.services p {
+	font-family: "Pt Sans", "Arial", sans-serif;
+	font-style: normal;
+	font-size: 13px;
+	line-height: 24px;
+}
+
+.services-heading {
+	font-family: "Cuprum", "Arial", sans-serif;
+   font-style: normal;
+   font-size: 30px;
+	line-height: 30px;
+}
+
+.services ul {
+	list-style-type: none;
+}
+
+.services button {
+	font-family: "Cuprum", "Arial", sans-serif;
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 30px;
+
+	background-color: #32425c;
+	color: #ffffff;
+
+	border: 0;
+}
+
+.services button:hover,
+.services button:focus {
+	background-color: #293449;
+	outline: none;
+}
+
+.services button:active {
+	background-color: #ffffff;
+	color: #32425c;
+	outline: none;
+}
+
 .about-company {
-	font-family: "Cuprum";
+	font-family: "Cuprum", "Arial", sans-serif;
    font-style: normal;
 }
 
@@ -237,7 +378,7 @@ a {
 }
 
 .about-company p {
-	font-family: "Pt Sans";
+	font-family: "Pt Sans", "Arial", sans-serif;
 	font-style: normal;
 	font-size: 13px;
 	line-height: 24px;
@@ -268,7 +409,7 @@ a {
 }
 
 .contact-heading {
-	font-family: "Cuprum";
+	font-family: "Cuprum", "Arial", sans-serif;
    font-style: normal;
    text-transform: uppercase;
 	font-size: 30px;
@@ -276,14 +417,14 @@ a {
 }
 
 .contact p {
-	font-family: "Pt Sans";
+	font-family: "Pt Sans", "Arial", sans-serif;
 	font-style: normal;
 	font-size: 13px;
 	line-height: 24px;
 }
 
 .contact-letter {
-	font-family: "Cuprum";
+	font-family: "Cuprum", "Arial", sans-serif;
    font-style: normal;
 	text-transform: uppercase;
 	font-size: 14px;
@@ -294,7 +435,7 @@ a {
 }
 
 .footer-nav {
-	font-family: "Cuprum";
+	font-family: "Cuprum", "Arial", sans-serif;
    font-style: normal;
 
    color: #ffffff;
@@ -312,9 +453,10 @@ a {
 	color: #ffffff;
 }
 
-.footer-nav-first-item:hover {
+.footer-nav-first-item:hover,
+.footer-nav-first-item:focus {
 	text-decoration: underline;
-	text-underline-position: under; /*Это помогло в хроме сделать полное подчеркивания слова, но в фаерфоксе не помогло. */
+	text-underline-position: under; 
 }
 
 .footer-nav-first-item:active {
@@ -323,7 +465,7 @@ a {
 }
 
 .bottom-address {
-	font-family: "Cuprum";
+	font-family: "Cuprum", "Arial", sans-serif;
    font-style: normal;
    font-size: 18px;
    line-height: 24px;
@@ -340,7 +482,8 @@ a {
    color: #ffd180;
 }
 
-.footer-nav-next-item:hover {
+.footer-nav-next-item:hover,
+.footer-nav-next-item:focus {
 	text-decoration: underline;
 	text-underline-position: under;
 }
@@ -351,7 +494,7 @@ a {
 }
 
 .footer {
-	font-family: "Cuprum";
+	font-family: "Cuprum", "Arial", sans-serif;
    font-style: normal;
    font-size: 16px;
    line-height: 28px;
@@ -368,12 +511,18 @@ a {
 	color: #ffffff;
 }
 
-.footer-feedback, .footer-copyright {
+.footer-feedback, 
+.footer-copyright {
 	color: #ffd180;
 }
 
-.footer-feedback:hover, 
-.footer-copyright:hover {
+.footer-feedback:hover,
+.footer-feedback:focus {
+	text-decoration: underline;
+}
+
+.footer-copyright:hover,
+.footer-copyright:focus {
 	text-decoration: underline;
 }
 
@@ -384,7 +533,7 @@ a {
 }
 
 .write-letter label {
-	font-family: "Cuprum";
+	font-family: "Cuprum", "Arial", sans-serif;
    font-style: normal;
    font-size: 18px;
    line-height: 18px;
@@ -392,7 +541,7 @@ a {
 
 .letter-form input[type="text"],
 .letter-form input[type="email"] {
-	font-family: "Pt Sans";
+	font-family: "Pt Sans", "Arial", sans-serif;
 	font-style: normal;
 	font-size: 13px;
 	line-height: 18px;
@@ -403,7 +552,7 @@ a {
 .button-send-letter {
 	border: 0;
 
-	font-family: "Cuprum";
+	font-family: "Cuprum", "Arial", sans-serif;
    font-style: normal;
    text-transform: uppercase;
 
@@ -411,8 +560,12 @@ a {
    background-color: #ee3643;
 }
 
+.header-cart-box {
+	background-color: #ee3643;
+}
+
 .user-office-name {
-	font-family: "Cuprum";
+	font-family: "Cuprum", "Arial", sans-serif;
    font-style: normal;
    font-size: 21px;
    line-height: 21px;
@@ -440,7 +593,12 @@ a {
 }
 
 .user-orders:hover,
-.user-private-office:hover {
+.user-orders:focus {
+	color: #ee3643;
+}
+
+.user-private-office:hover,
+.user-private-office:focus {
 	color: #ee3643;
 }
 
@@ -461,7 +619,7 @@ a {
 }
 
 .container-list a{
-	font-family: "Pt Sans";
+	font-family: "Pt Sans", "Arial", sans-serif;
 	font-style: normal;
 	font-size: 13px;
 	line-height: 18px;
@@ -470,7 +628,7 @@ a {
 }
 
 .main-title {
-	font-family: "Cuprum";
+	font-family: "Cuprum", "Arial", sans-serif;
    font-style: normal;
    text-transform: uppercase;
 	font-size: 30px;
@@ -480,8 +638,106 @@ a {
    color: #32425c;
 }
 
+.filter-heading {
+	font-family: "Pt Sans", "Arial", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 13px;
+	line-height: 18px;
+
+	background-color: #f7f3ec;
+}
+
+.filter-price {
+	font-family: "Pt Sans", "Arial", sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 17px;
+	line-height: 30px;
+}
+
+.manufacturer-filter,
+.power-filter {
+	border: 0;
+}
+
+.manufacturer-legend,
+.power-legend {
+	font-family: "Pt Sans", "Arial", sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 17px;
+   line-height: 30px;
+}
+
+.manufacturer-list,
+.power-list {
+	font-family: "Pt Sans", "Arial", sans-serif;
+	font-style: normal;
+	font-size: 15px;
+   line-height: 20px;
+}
+
+.power-list {
+	list-style: none;
+}
+
+.button-filter-show {
+	font-family: "Pt Sans", "Arial", sans-serif;
+	font-style: normal;
+	font-size: 13px;
+   line-height: 18px;
+
+   background-color: #ffffff;
+   border: 1px solid #e5e5e5;
+}
+
+.button-filter-show:hover,
+.button-filter-show:focus {
+	border: 1px solid #bdc6ca;  
+}
+
+.button-filter-show:active {
+	border: 1px solid #ee3643;
+}
+
+.catalog-nav {
+	font-family: "Pt Sans", "Arial", sans-serif;
+	font-style: normal;
+	text-transform: uppercase;
+	font-size: 13px;
+   line-height: 18px;
+
+   background-color: #f7f3ec;
+}
+
+.catalog-nav a{
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.catalog-nav-item {
+	border-bottom: 1px dashed #ee3643 ;
+}
+
+.catalog-nav a:hover,
+.catslog-nav a:focus {
+	color: #000000;
+}
+
+.catalog-nav-item:hover,
+.catalog-nav-item:focus {
+	border-bottom: 1px solid #ee3643 ;
+}
+
+.catalog-nav a:active {
+	color: #ee3643;
+	border-bottom: none;
+
+}
+
 .catalog-list {
-	font-family: "Pt Sans";
+	font-family: "Pt Sans", "Arial", sans-serif;
 	font-weight: bold;
 	list-style: none;
 }
@@ -508,7 +764,7 @@ a {
 }
 
 .button-catalog-buy {
-	font-family: "Cuprum";
+	font-family: "Cuprum", "Arial", sans-serif;
    font-style: normal;
    text-transform: uppercase;
 	font-size: 14px;
@@ -518,7 +774,8 @@ a {
    color: #ffffff;
 }
 
-.button-catalog-buy:hover {
+.button-catalog-buy:hover,
+.button-catalog-buy:focus {
 	background-color: #5fbb2d;
 }
 
@@ -527,7 +784,7 @@ a {
 }
 
 .button-catalog-bookmark {
-	font-family: "Cuprum";
+	font-family: "Cuprum", "Arial", sans-serif;
    font-style: normal;
    text-transform: uppercase;
 	font-size: 14px;
@@ -538,17 +795,41 @@ a {
    border: 3px solid #63a63e;
 }
 
-.button-catalog-bookmark:hover {
+.button-catalog-bookmark:hover,
+.button-catalog-bookmark:focus {
 	border-color: #32425c;
 }
 
 .button-catalog-bookmark:active {
 	opacity: 0.3;
+}
 
+.pagination-list {
+	font-family: "Pt Sans", "Arial", sans-serif;
+	font-style: normal;
+	text-transform: uppercase;
+	font-size: 13px;
+   line-height: 18px;
+	
+	list-style-type: none;
+}
+
+.pagination-list a {
+	color: #000000;
+	border: 1px solid #e5e5e5;
+}
+
+.pagination-list a:hover,
+.pagination-list a:focus {
+	border: 1px solid #bdc6ca;
+}
+
+.pagination-list a:active {
+	border: 1px solid #ee3643;
 }
 
 .buy-product {
-	font-family: "Cuprum";
+	font-family: "Cuprum", "Arial", sans-serif;
    font-style: normal;
 }
 

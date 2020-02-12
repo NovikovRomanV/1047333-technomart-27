@@ -15,8 +15,7 @@
 				<input type="search" name="text" id="header-searchs" placeholder="Поиск:">
 			</form>
 			<a class="header-bookmark" href="">Закладки</a>
-			<!--в каталоге кнопка "корзина" красная. ее просто покрасить в красный или должна быть связь с кнопкой "купить?" -->
-			<a class="header-cart" href="">Корзина</a>
+			<a class="header-cart header-cart-box" href="">Корзина: 10</a>
 			<a class="header-order" href="">Оформить заказ</a>
 		</div>
   	 	
@@ -66,9 +65,9 @@
 		<h2 class="main-title">Перфораторы</h2>
   	 	
   	 	<section class="filter">
-  	 		<h3 class="visually-hidden">Фильтр товаров</h3>
+  	 		<h3 class="filter-heading">Фильтр:</h3>
   	 		<form class="filter-form" action="https://echo.htmlacademy.ru" method="get" oninput="priceoutput.value=price.value">
-  	 			<label class="filter-price" for="filter-prices">Цена:</label> <!--как я понял что бы сделать два ползунка нужен js-->
+  	 			<label class="filter-price" for="filter-prices">Цена:</label> 
   	 			<input class="filter-price-input" type="range" name="price" id="filter-prices" min="0" max="30000" step="500" value="30000">
   	 			<output class="filter-price-output" name="priceoutput"></output>
   	 			<fieldset class="manufacturer-filter">
@@ -97,7 +96,7 @@
   	 				</ul>
   	 			</fieldset>
   	 			<fieldset class="power-filter">
-  	 				<legend>Питание:</legend>
+  	 				<legend class="power-legend">Питание:</legend>
   	 				<ul class="power-list">
   	 					<li>
   	 						<input class="power-input" type="radio" name="power" id="filter-accumulator" checked>
@@ -117,12 +116,14 @@
   	 	
   	 	<section class="catalog">
   	 		<h2 class="visually-hidden">Каталог товаров</h2>
-  	 			<p class="catalog-filter">Сортировка:</p>
-  	 			<a href="">По цене</a>
-  	 			<a href="">По типу</a>
-  	 			<a href="">По функционалу</a>
-				<a href="">вверх</a>
-				<a href="">вниз</a>
+  	 			<div class="catalog-nav">
+  	 				<p class="catalog-filter">Сортировка:</p>
+  	 				<a class="catalog-nav-item" href="">По цене</a>
+  	 				<a class="catalog-nav-item" href="">По типу</a>
+  	 				<a class="catalog-nav-item" href="">По функционалу</a>
+					<a href="">вверх</a>
+					<a href="">вниз</a>
+				</div>	
   	 			<ul class="catalog-list">
   	 				<li class="catalog-item">
   	 					<img src="img/perforator_3000.png" width="218" height="170" alt="Перфоратор синий короткий с аккумулятором">
