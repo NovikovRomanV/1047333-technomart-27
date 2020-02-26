@@ -69,15 +69,29 @@ input[type="radio"].visually-hidden {
 
 .header-logo-link {
 	padding-top: 11px;
-	padding-right: 57px;
+	padding-right: 56px;
 	padding-bottom: 11px;
 	padding-left: 55px;
 	
 	background-color: #ee3643;
+	position: relative;
 }
 
 .header-logo {
 	color: #ffffff;
+}
+
+.header-logo-link:after {
+	content: "";
+
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+
+	width: 220px;
+	height: 5px;
+
+	box-shadow: inset 0px -5px 0 0 rgba(181, 41, 51, 1);
 }
 
 .header-logo-link:hover,
@@ -562,7 +576,7 @@ input[type="radio"].visually-hidden {
 
 .container-list .contaner-list-orderly:before {
 	color: #c5c9d1;
-	content: url(../img/icon-arrow-right-small.svg);
+	content: url("../img/icon-arrow-right-small.svg");
 	padding-right: 10px;
 }
 
@@ -680,7 +694,7 @@ input[type="radio"].visually-hidden {
 	width: 620px;
 	height: 266px;
 	
-	background-image: url(../img/man-with-drill.jpg);
+	background-image: url("../img/man-with-drill.jpg");
 	background-color: #665343;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -694,7 +708,7 @@ input[type="radio"].visually-hidden {
 	width: 620px;
 	height: 266px;
 
-	background-image: url(../img/man-with-hammer-drill.jpg);
+	background-image: url("../img/man-with-hammer-drill.jpg");
 	background-color: #665343;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -775,7 +789,7 @@ input[type="radio"].visually-hidden {
 	width: 22px;
 	height: 40px;
 
-	background-image: url(../img/icon-left.svg);
+	background-image: url("../img/icon-left.svg");
 	background-repeat: no-repeat;
 	cursor: pointer;
 }
@@ -790,7 +804,7 @@ input[type="radio"].visually-hidden {
 	width: 22px;
 	height: 40px;
 
-	background-image: url(../img/icon-right.svg);
+	background-image: url("../img/icon-right.svg");
 	background-repeat: no-repeat;
 	cursor: pointer;
 }
@@ -1348,7 +1362,7 @@ input[type="radio"].visually-hidden {
 	overflow: hidden;
 	z-index: 20;
 	
-	background-image: url(../img/new-flag.png);
+	background-image: url("../img/new-flag.png");
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	
@@ -1808,13 +1822,27 @@ input[type="radio"].visually-hidden {
 }
 
 .bottom-logo {
-	/*width: 136px;*/
 	padding-top: 19px;
-	padding-right: 42px;
+	padding-right: 55px;
 	padding-bottom: 19px;
-	padding-left: 42px;
+	padding-left: 56px;
 
 	background-color: #ee3643;
+
+	position: relative;
+}
+
+.bottom-logo:after {
+	content: "";
+
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+
+	width: 220px;
+	height: 5px;
+
+	box-shadow: inset 0px -5px 0 0 rgba(181, 41, 51, 1);
 }
 
 .footer-nav-first {
@@ -1976,7 +2004,7 @@ input[type="radio"].visually-hidden {
 	width: 26px;
 	height: 15px;
 
-	background-image: url(../img/icon-vk.svg);
+	background-image: url("../img/icon-vk.svg");
 	background-repeat: no-repeat;
 	background-position: 0 0;
 }
@@ -2000,7 +2028,7 @@ input[type="radio"].visually-hidden {
 	width: 12px;
 	height: 22px;
 
-	background-image: url(../img/icon-fb.svg);
+	background-image: url("../img/icon-fb.svg");
 	background-repeat: no-repeat;
 	background-position: 0 0 ;
 } 
@@ -2024,7 +2052,7 @@ input[type="radio"].visually-hidden {
 	width: 21px;
 	height: 21px;
 
-	background-image: url(../img/icon-insta.svg);
+	background-image: url("../img/icon-insta.svg");
 	background-repeat: no-repeat;
 	background-position: 0 0;
 }
