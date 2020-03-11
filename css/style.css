@@ -1068,13 +1068,16 @@ input[type="radio"].visually-hidden {
 	text-transform: uppercase;
    color: #ffffff;
    background-color: rgba(0, 0, 0, 0.1);
+	text-align: center;
 	
 	margin-left: 25px;
-
+	width: 134px;
    padding-top: 10px;
-   padding-right: 24px;
+   /*padding-right: 24px;*/
+   
    padding-bottom: 11px;
-   padding-left: 25px;
+   /*padding-left: 25px;*/
+   
 	
 	border-radius: 3px;
 
