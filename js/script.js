@@ -23,7 +23,7 @@ if (!document.querySelector(".inner-page")) {
   });
 };
 
-var fbLink = document.querySelector(".contact-letter");
+/*var fbLink = document.querySelector(".contact-letter");
   var fbPopup = document.querySelector(".write-letter");
   var fbClose = fbPopup.querySelector(".button-close-letter");
   var fbForm = fbPopup.querySelector("form");
@@ -91,7 +91,7 @@ var fbLink = document.querySelector(".contact-letter");
       }
     }
   });
-
+/*
 var buttonBuy = document.querySelectorAll(".button-catalog-buy");
 var buyCartPopup = document.querySelector(".modal-buy-cart");
 var buyCartClose = buyCartPopup.querySelector(".button-close-buy");
