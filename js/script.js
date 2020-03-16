@@ -92,7 +92,7 @@ if (!document.querySelector(".inner-page")) {
     }
   });
 
-var buttonBuy = document.querySelectorAll(".button-catalog-buy");
+var buttonBuy = document.querySelector(".button-catalog-buy");
 var buyCartPopup = document.querySelector(".modal-buy-cart");
 var buyCartClose = buyCartPopup.querySelector(".button-close-buy");
 var linkCart = document.querySelector(".header-cart");
@@ -144,7 +144,7 @@ buyCartClose.addEventListener("click", function (evt) {
 
 window.addEventListener("keydown", function (evt) {
   if (evt.keyCode === 27) {
-    if (addCartPopup.classList.contains("modal-show")) {
+    if (buyCartPopup.classList.contains("modal-show")) {
       evt.preventDefault();
       buyCartPopup.classList.remove("modal-show");
     }
