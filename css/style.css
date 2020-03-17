@@ -171,10 +171,19 @@ input[type="radio"].visually-hidden {
 	background-color: #ffffff;
 }
 
-.search-site:active ~ svg path,
-.search-site:focus ~ svg path {
-	fill: rgba(238, 54, 67, 1.0);
+.search-site:active svg,
+.search-site:focus + svg {
+	fill: rgba(238, 54, 67, 1);
 }
+
+/*.search-site:active ~ svg path,
+.search-site:focus ~ svg path{
+	fill: rgba(238, 54, 67, 1.0);
+}*/
+
+/*.search-site:focus + .header-search-icon {
+	fill: rgba(238, 54, 67, 1.0);
+}*/
 
 .header-bookmark {
 	color: #ffffff;
@@ -392,14 +401,12 @@ input[type="radio"].visually-hidden {
 	
 	background-color: #ffffff;
    color: #000000;
-	
-	/*width: 46px;*/
+		
 	padding-top: 11px;
 	padding-right: 23px;
    padding-bottom: 12px;
    padding-left: 50px;
    margin-right: 10px;
-   /*margin-bottom: auto;*/
    margin-bottom: 43px;
    margin-left: 18px;
    position: relative;
@@ -479,7 +486,7 @@ input[type="radio"].visually-hidden {
 	position: relative;
 }
 
-.icon-office-name{
+.icon-office-name {
 	content: "";
 	
 	position: absolute;
@@ -580,7 +587,7 @@ input[type="radio"].visually-hidden {
 .header-nav-site {
 	list-style: none;
 	display: flex;
-	/*margin: auto;*/
+	flex-wrap: wrap;
 	margin: 0;
 	padding-left: 0;
 	justify-content: center;
@@ -614,7 +621,7 @@ input[type="radio"].visually-hidden {
 	background-color: #1d2739;
 }
 
-.container-breadcrumbs{
+.container-breadcrumbs {
 	width: 940px;
 	margin-right: auto;
 	margin-left: auto;
@@ -654,20 +661,20 @@ input[type="radio"].visually-hidden {
 }
 
 .container-list li:last-child {
-  margin-right: 0;
+ 	margin-right: 0;
 }
 
 .contaner-list-orderly::after {
-  content: "";
-  position: absolute;
-  top: 2px;
-  right: -28px;
+  	content: "";
+  	position: absolute;
+  	top: 2px;
+  	right: -28px;
 
-  width: 8px;
-  height: 12px;
+  	width: 8px;
+  	height: 12px;
 
-  background-image: url("../img/icon-right-small.svg");
-  background-repeat: no-repeat;
+  	background-image: url("../img/icon-right-small.svg");
+  	background-repeat: no-repeat;
 }
 
 .contaner-list-last::after {
@@ -947,16 +954,16 @@ input[type="radio"].visually-hidden {
 }
 
 .button-slider-second::before {
-  content: "";
-  position: absolute;
-  top: 220px;
-  left: 315px;
+  	content: "";
+  	position: absolute;
+  	top: 220px;
+  	left: 315px;
 
-  width: 6px;
-  height: 6px;
+  	width: 6px;
+  	height: 6px;
 
-  background-color: #ee3643;
-  border-radius: 50%;
+  	background-color: #ee3643;
+  	border-radius: 50%;
 }
 
 .product-services-name {
@@ -1262,35 +1269,35 @@ input[type="radio"].visually-hidden {
 }
 
 .logo-bosch {
-  padding: 1px 1px 0 0;
+  	padding: 1px 1px 0 0;
 }
 
 .logo-makita {
-  padding-bottom: 1px;
+  	padding-bottom: 1px;
 }
 
 .logo-dewalt {
-  padding: 0 0 1px 1px;
+  	padding: 0 0 1px 1px;
 }
 
 .logo-interskol {
-  padding: 0 0 12px 1px;
+  	padding: 0 0 12px 1px;
 }
 
 .logo-hitachi {
-  padding: 1px 0 0 3px;
+  	padding: 1px 0 0 3px;
 }
 
 .logo-lg {
-  padding: 0 2px 2px 0;
+  	padding: 0 2px 2px 0;
 }
 
 .logo-aeg {
-  padding: 0 0 3px 3px;
+  	padding: 0 0 3px 3px;
 }
 
 .logo-metabo {
-  padding: 0 0 9px 8px;
+  	padding: 0 0 9px 8px;
 }
 
 .box-main-title {
@@ -1358,13 +1365,13 @@ input[type="radio"].visually-hidden {
 
 
 .filter-form fieldset {
-  margin: 0;
-  padding: 0;
+  	margin: 0;
+  	padding: 0;
 
-  border: none;
+  	border: none;
 }
 
-.price-field legend{
+.price-field legend {
   	font-family: "PT Sans", Arial, sans-serif;
   	font-weight: bold;
   	font-size: 17px;
@@ -1397,72 +1404,72 @@ input[type="radio"].visually-hidden {
 }
 
 .toggle-bar .scale {
-  width: 152px;
-  height: 2px;
+  	width: 152px;
+  	height: 2px;
 
-  background-color: #00cb75;
+ 	background-color: #00cb75;
 }
 
 .price-range .min-toggle,
 .price-range .max-toggle {
-  position: absolute;
+  	position: absolute;
 
-  width: 20px;
-  height: 22px;
+  	width: 20px;
+  	height: 22px;
 
-  background: url("../img/filter-button.svg") no-repeat;
-  background-size: contain;
-  cursor: pointer;
+  	background: url("../img/filter-button.svg") no-repeat;
+  	background-size: contain;
+  	cursor: pointer;
 }
 
 .price-range .min-toggle {
-  top: 30px;
-  left: 20px;
+  	top: 30px;
+  	left: 20px;
 }
 
 .price-range .max-toggle {
-  top: 30px;
-  right: 40px;
+  	top: 30px;
+  	right: 40px;
 }
 
 .price-input {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  margin-bottom: 25px;
+  	display: -webkit-box;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-webkit-box-pack: justify;
+  	-ms-flex-pack: justify;
+  	justify-content: space-between;
+ 	margin-bottom: 25px;
 }
 
 .price-input span {
-  font-family: "PT Sans", Arial, sans-serif;
-  font-size: 16px;
-  line-height: 18px;
+  	font-family: "PT Sans", Arial, sans-serif;
+  	font-size: 16px;
+  	line-height: 18px;
 
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
+  	-ms-flex-item-align: center;
+  	-ms-grid-row-align: center;
+  	align-self: center;
    
-  text-align: center;
-  color: #444444;
+  	text-align: center;
+  	color: #444444;
 }
 
 .price-input .price-input-min,
 .price-input .price-input-max {
-  font-family: "PT Sans", Arial, sans-serif;
-  font-size: 17px;
-  line-height: 18px;
+  	font-family: "PT Sans", Arial, sans-serif;
+  	font-size: 17px;
+  	line-height: 18px;
 
-  width: 95px;
-  height: 36px;
+  	width: 95px;
+  	height: 36px;
     
-  text-align: center;
-  text-transform: uppercase;
+  	text-align: center;
+  	text-transform: uppercase;
 
-  background-color: #f7f3ec;
-  border: none;
-  border-radius: 4px;
+  	background-color: #f7f3ec;
+  	border: none;
+  	border-radius: 4px;
 }
 
 .filter-form .price-field {
@@ -1676,7 +1683,7 @@ input[type="radio"].visually-hidden {
 	margin-right: 46px;
 } 
 
-.catalog-nav-item{
+.catalog-nav-item {
 	color: rgba(0, 0, 0, 0.3);
 }
 
@@ -2283,15 +2290,15 @@ input[type="radio"].visually-hidden {
 
 
 .transport-companies-item::before {
-  content: "";
-  position: absolute;
-  left: 0;
+  	content: "";
+  	position: absolute;
+  	left: 0;
 
-  width: 25px;
-  height: 2px;
+  	width: 25px;
+  	height: 2px;
 
-  background-color: #ee3643;
-  transform: translateY(10px);
+  	background-color: #ee3643;
+  	transform: translateY(10px);
 }
 
 .transport-companies-link {
@@ -2591,6 +2598,7 @@ input[type="radio"].visually-hidden {
 	background-color: #212a3a;
 
 	margin-right: auto;
+	margin-bottom: 2px;
 }
 
 .social-vk:before {
