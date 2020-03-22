@@ -1,18 +1,18 @@
 body {
-   margin: 0;
-   padding: 0;
+	margin: 0;
+	padding: 0;
 
-   font-family: "Cuprum", "Arial", sans-serif;
-   font-size: 14px;
-   line-height: 24px;
-   font-weight: 400;
-   color: #000000;
+	font-family: "Cuprum", "Arial", sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #000000;
 
-   background-color: #ffffff;
+	background-color: #ffffff;
 }	
 
 a {
-   text-decoration: none;
+	text-decoration: none;
 }
 
 img {
@@ -23,39 +23,39 @@ img {
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
-  position: absolute;
+	position: absolute;
 
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
 
-  white-space: nowrap;
+	white-space: nowrap;
 
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
 
 .header {
-   font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
+	font-family: "Cuprum", "Arial", sans-serif;
+	font-style: normal;
 
-   background-color: #f3f7f9;
+	background-color: #f3f7f9;
 	
-   margin-bottom: 20px;
-   padding-bottom: 60px;
+	margin-bottom: 20px;
+	padding-bottom: 60px;
 }
 
 .header-container {
-   font-size: 17px;
-   line-height: 18px;
+	font-size: 17px;
+	line-height: 18px;
 
-   background-color: #293449;
-   color: #ffffff;
+	background-color: #293449;
+	color: #ffffff;
 	   
-   margin-bottom: 46px;   
+	margin-bottom: 46px;   
 }
 
 .container {
@@ -112,16 +112,16 @@ input[type="radio"].visually-hidden {
 
 .search-site {
 	font-size: 17px;
-   line-height: 18px;
+	line-height: 18px;
 
 	padding-left: 49px;
 	width: 100%;
   
-   color: #ffffff;
+	color: #ffffff;
 
-   background-color: transparent;
-   border: none;
-   outline: none;
+	background-color: transparent;
+	border: none;
+	outline: none;
 }
 
 .header-search-icon {
@@ -133,7 +133,7 @@ input[type="radio"].visually-hidden {
 }
 
 .header-search-icon {
-   fill: rgba(255, 255, 255, 0.3);
+	fill: rgba(255, 255, 255, 0.3);
 }
 
 .header-search {
@@ -180,10 +180,10 @@ input[type="radio"].visually-hidden {
 	color: #ffffff;
 	
 	width: 130px;
-   padding: 12px 0;
-   padding-left: 20px;
+	padding: 12px 0;
+	padding-left: 20px;
 
-   outline: none;
+	outline: none;
 	text-align: center;
 	border: 0;
 
@@ -229,10 +229,10 @@ input[type="radio"].visually-hidden {
 	color: #ffffff;
 	
 	width: 130px;
-   padding: 12px 0;
-   padding-left: 20px;
+	padding: 12px 0;
+	padding-left: 20px;
 
-   outline: none;
+	outline: none;
 	text-align: center;
 	border: 0;
 
@@ -315,14 +315,14 @@ input[type="radio"].visually-hidden {
 }
 
 .header-title {
-   font-family: "Cuprum", "Arial", sans-serif;
-   font-style: italic;
-   font-size: 16px;
-   line-height: 23px;
+	font-family: "Cuprum", "Arial", sans-serif;
+	font-style: italic;
+	font-size: 16px;
+	line-height: 23px;
   
-   color: #ee3643;
+	color: #ee3643;
 
-   width: 200px;
+	width: 200px;
 	margin: 0;
 	padding-top: 3px;
   	padding-right: 20px;
@@ -330,21 +330,21 @@ input[type="radio"].visually-hidden {
 }
 
 .header-address {
-   font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   font-size: 14px;
-   line-height: 24px;
+	font-family: "Cuprum", "Arial", sans-serif;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 24px;
 
 
-   color: #32425c;
+	color: #32425c;
 	text-align: center;
 	margin-top: 13px;
   	margin-left: 47px;
 }
 
 .header-address-tel {
-   font-size: 21px;
-   line-height: 21px;
+	font-size: 21px;
+	line-height: 21px;
 	
 	width: 142px;
 	padding-top: 8px;
@@ -353,9 +353,9 @@ input[type="radio"].visually-hidden {
 	padding-left: 70px; 
 	
 	color: #ee3643;
-   border: 3px solid #ffffff;
+	border: 3px solid #ffffff;
 
-   position: relative;
+	position: relative;
 }
 
 .header-address-tel::before {
@@ -385,22 +385,22 @@ input[type="radio"].visually-hidden {
 }
 
 .user-login {
-   font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   font-size: 21px;
-   line-height: 21px;
+	font-family: "Cuprum", "Arial", sans-serif;
+	font-style: normal;
+	font-size: 21px;
+	line-height: 21px;
 	
 	background-color: #ffffff;
-   color: #000000;
+	color: #000000;
 		
 	padding-top: 11px;
 	padding-right: 23px;
-   padding-bottom: 12px;
-   padding-left: 50px;
-   margin-right: 10px;
-   margin-bottom: 43px;
-   margin-left: 18px;
-   position: relative;
+	padding-bottom: 12px;
+	padding-left: 50px;
+	margin-right: 10px;
+	margin-bottom: 43px;
+	margin-left: 18px;
+	position: relative;
 }
 
 .header-user-icon {
@@ -432,21 +432,21 @@ input[type="radio"].visually-hidden {
 }
 
 .user-registration {
-   font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   font-size: 21px;
-   line-height: 21px;
+	font-family: "Cuprum", "Arial", sans-serif;
+	font-style: normal;
+	font-size: 21px;
+	line-height: 21px;
 	
 	background-color: #ffffff;
-   color: #000000;
+	color: #000000;
 
-   width: 99px;
+	width: 99px;
 	padding-top: 12px;
 	padding-right: 25px;
-   padding-bottom: 12px;
-   padding-left: 26px;
-   margin-right: 0;
-   margin-bottom: 43px;
+	padding-bottom: 12px;
+	padding-left: 26px;
+	margin-right: 0;
+	margin-bottom: 43px;
 }  
 
 .user-office {
@@ -460,14 +460,14 @@ input[type="radio"].visually-hidden {
 
 .user-office-name {
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   font-size: 21px;
-   line-height: 21px;
+	font-style: normal;
+	font-size: 21px;
+	line-height: 21px;
 	
 	background-color: #ffffff;
-   color: #000000;
+	color: #000000;
 
-   margin-left: 20px;
+	margin-left: 20px;
 	margin-right: 0;
 	
 	padding-top: 12px;
@@ -502,7 +502,7 @@ input[type="radio"].visually-hidden {
 
 .user-nav {
 	font-size: 16px;
-   line-height: 18px;
+	line-height: 18px;
 
 	color: #32425c;
 
@@ -566,11 +566,11 @@ input[type="radio"].visually-hidden {
 
 .header-nav {
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   font-size: 17px;
-   line-height: 17px;
+	font-style: normal;
+	font-size: 17px;
+	line-height: 17px;
 
-   width: 940px;
+	width: 940px;
 	margin: 0 auto;
 	padding: 0 10px;
 	margin-bottom: 0;
@@ -681,10 +681,10 @@ input[type="radio"].visually-hidden {
 	left: -1px;
 
 	width: 14px;
-   height: 12px;
+	height: 12px;
 
-   background-image: url("../img/icon-home.svg");
-   background-repeat: no-repeat;
+	background-image: url("../img/icon-home.svg");
+	background-repeat: no-repeat;
 }
 
 .contaner-link-home:focus::before {
@@ -835,26 +835,26 @@ input[type="radio"].visually-hidden {
 
 .product-slider-item {
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   font-size: 18px;
-   line-height: 24px;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 24px;
 
-   color: #ffffff;
+	color: #ffffff;
 	
 	margin: 0;
-   padding-top: 1px;
+	padding-top: 1px;
 	padding-left: 24px;
 }
 
 .button-slider-catalog {
 	display: block;
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   font-size: 18px;
-   line-height: 24px;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 24px;
 	text-transform: uppercase;
 
-   color: #ffffff;
+	color: #ffffff;
 
 	margin-top: 122px;
 	margin-right: 400px;
@@ -1060,19 +1060,19 @@ input[type="radio"].visually-hidden {
 .button-product-services {
 	display: block;
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   font-size: 14px;
-   line-height: 18px;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 18px;
 	text-transform: uppercase;
-   color: #ffffff;
-   background-color: rgba(0, 0, 0, 0.1);
+	color: #ffffff;
+	background-color: rgba(0, 0, 0, 0.1);
 	text-align: center;
 
 	margin-left: 25px;
 	width: 134px;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   border-radius: 3px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 3px;
 }
 
 .button-product-services:hover,
@@ -1086,9 +1086,9 @@ input[type="radio"].visually-hidden {
 
 .button-slider-catalog {
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
+	font-style: normal;
 	font-size: 14px;
-   line-height: 18px;
+	line-height: 18px;
 	
 	color: #ffffff;
 	background-color: #ee3643;
@@ -1121,8 +1121,8 @@ input[type="radio"].visually-hidden {
 
 .popular-product-heading {
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   font-size: 30px;
+	font-style: normal;
+	font-size: 30px;
 	line-height: 30px;
 	text-transform: uppercase;
 	font-weight: normal;
@@ -1135,8 +1135,8 @@ input[type="radio"].visually-hidden {
 
 .button-popular-product {
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   font-size: 14px;
+	font-style: normal;
+	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
 	
@@ -1180,8 +1180,8 @@ input[type="radio"].visually-hidden {
 
 .popular-manufacturer-heading {
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   font-size: 30px;
+	font-style: normal;
+	font-size: 30px;
 	line-height: 30px;
 	text-transform: uppercase;
 	font-weight: normal;
@@ -1241,7 +1241,7 @@ input[type="radio"].visually-hidden {
 .button-popular-manufacturer {
 	font-family: "Cuprum", "Arial", sans-serif;
 	font-style: normal;
-   font-size: 14px;
+	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
 	
@@ -1311,19 +1311,19 @@ input[type="radio"].visually-hidden {
 
 .main-title {
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   text-transform: uppercase;
+	font-style: normal;
+	text-transform: uppercase;
 	font-size: 30px;
-   line-height: 30px;
+	line-height: 30px;
 	font-weight: normal;
 
 	background-color: #f2f6f8;
-   color: #32425c;
+	color: #32425c;
 
-   margin: 0;
-   padding-top: 29px;
-   padding-bottom: 30px;
-   padding-left: 28px;
+	margin: 0;
+	padding-top: 29px;
+	padding-bottom: 30px;
+	padding-left: 28px;
 }
 
 .catalog-big-box {
@@ -1498,7 +1498,7 @@ input[type="radio"].visually-hidden {
   	position: absolute;
   
   	width: 23px;
-   height: 23px;
+	height: 23px;
 
   	background: url("../img/checkbox-off.svg"); 
   	background-repeat: no-repeat;
@@ -1560,7 +1560,7 @@ input[type="radio"].visually-hidden {
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 17px;
-   line-height: 30px;
+	line-height: 30px;
 }
 
 .manufacturer-list,
@@ -1568,11 +1568,11 @@ input[type="radio"].visually-hidden {
 	font-family: "Pt Sans", "Arial", sans-serif;
 	font-style: normal;
 	font-size: 15px;
-   line-height: 20px;
+	line-height: 20px;
 	text-transform: uppercase;
    
-   padding-left: 0;
-   list-style: none;
+	padding-left: 0;
+	list-style: none;
 	position: relative;
 }
 
@@ -1622,17 +1622,17 @@ input[type="radio"].visually-hidden {
 	font-family: "Pt Sans", "Arial", sans-serif;
 	font-style: normal;
 	font-size: 13px;
-   line-height: 18px;
+	line-height: 18px;
 	text-transform: uppercase;
 
 	padding-top: 9px;
 	padding-right: 38px;
 	padding-bottom: 9px;
 	padding-left: 39px;
-   background-color: #ffffff;
-   border: 1px solid #e5e5e5;
-   border-radius: 3px;
-   margin-top: 63px;
+	background-color: #ffffff;
+	border: 1px solid #e5e5e5;
+	border-radius: 3px;
+	margin-top: 63px;
 }
 
 .button-filter-show:hover,
@@ -1656,14 +1656,14 @@ input[type="radio"].visually-hidden {
 	font-style: normal;
 	text-transform: uppercase;
 	font-size: 13px;
-   line-height: 18px;
+	line-height: 18px;
 	margin-bottom: 20px;
 
-   background-color: #f7f3ec;
+	background-color: #f7f3ec;
 
-   display: flex;
-   flex-wrap: wrap;
-   align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
 }
 
 .catalog-filter {
@@ -1814,14 +1814,14 @@ input[type="radio"].visually-hidden {
 
 .button-catalog-buy {
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   text-transform: uppercase;
+	font-style: normal;
+	text-transform: uppercase;
 	font-size: 14px;
-   line-height: 18px;
-   text-decoration: none;
+	line-height: 18px;
+	text-decoration: none;
 
-   background-color: #63a63e;
-   color: #ffffff;
+	background-color: #63a63e;
+	color: #ffffff;
 }
 
 .button-catalog-buy:hover,
@@ -1835,14 +1835,14 @@ input[type="radio"].visually-hidden {
 
 .button-catalog-bookmark {
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   text-transform: uppercase;
+	font-style: normal;
+	text-transform: uppercase;
 	font-size: 14px;
-   line-height: 18px;
+	line-height: 18px;
 
-   color: #32425c;
+	color: #32425c;
 	background-color: #ffffff;
-   border: 3px solid #63a63e;
+	border: 3px solid #63a63e;
 }
 
 .button-catalog-bookmark:hover,
@@ -1919,7 +1919,7 @@ input[type="radio"].visually-hidden {
 	font-style: normal;
 	text-transform: uppercase;
 	font-size: 13px;
-   line-height: 18px;
+	line-height: 18px;
 	
 	list-style-type: none;
 
@@ -1991,26 +1991,26 @@ input[type="radio"].visually-hidden {
 
 .aside-heading {
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   font-size: 30px;
-   line-height: 30px;
-   text-transform: uppercase;
-   font-weight: normal;
+	font-style: normal;
+	font-size: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+	font-weight: normal;
 
-   margin-top: 0;
-   margin-bottom: 12px;
+	margin-top: 0;
+	margin-bottom: 12px;
 }
 
 .aside-item {
 	font-family: "Pt Sans", "Arial", sans-serif;
-   font-style: normal;
-   font-size: 13px;
-   line-height: 24px;
+	font-style: normal;
+	font-size: 13px;
+	line-height: 24px;
 }
 
 .buy-product {
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
+	font-style: normal;
 }
 
 .buy-product p {
@@ -2072,8 +2072,8 @@ input[type="radio"].visually-hidden {
 
 .services-heading {
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   font-size: 30px;
+	font-style: normal;
+	font-size: 30px;
 	line-height: 30px;
 	text-transform: uppercase;
 	font-weight: normal;
@@ -2084,8 +2084,8 @@ input[type="radio"].visually-hidden {
 
 .services-title {
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   font-size: 36px;
+	font-style: normal;
+	font-size: 36px;
 	line-height: 36px;
 	text-transform: uppercase;
 	font-weight: normal;
@@ -2161,7 +2161,7 @@ input[type="radio"].visually-hidden {
 .services-delivery .button-delivery {
 	color: #32425c;
 	background-color: #ffffff;
-   box-shadow: 0 1px 0 0 #ffffff, inset 0 1px 0 0 #ffffff;
+	box-shadow: 0 1px 0 0 #ffffff, inset 0 1px 0 0 #ffffff;
 }
 
 .services-item {
@@ -2206,8 +2206,8 @@ input[type="radio"].visually-hidden {
 
 .services-credit-link {
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   font-size: 14px;
+	font-style: normal;
+	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
 
@@ -2246,17 +2246,17 @@ input[type="radio"].visually-hidden {
 
 .about-company {
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   width: 535px;
+	font-style: normal;
+	width: 535px;
 }
 
 .company-name {
 	text-transform: uppercase;
 	font-size: 30px;
-   line-height: 30px;
-   font-weight: normal;
-   margin-top: 25px;
-   margin-bottom: 26px;
+	line-height: 30px;
+	font-weight: normal;
+	margin-top: 25px;
+	margin-bottom: 26px;
 }
 
 .about-company-item {
@@ -2307,7 +2307,7 @@ input[type="radio"].visually-hidden {
 	display: block;
 	font-family: "Cuprum", "Arial", sans-serif;
 	font-style: normal;
-   font-size: 13px;
+	font-size: 13px;
 	line-height: 24px;
 	text-transform: uppercase;
 	
@@ -2343,13 +2343,13 @@ input[type="radio"].visually-hidden {
 
 .contact-heading {
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   text-transform: uppercase;
+	font-style: normal;
+	text-transform: uppercase;
 	font-size: 30px;
-   line-height: 30px;
+	line-height: 30px;
 	font-weight: normal;
 	margin-top: 25px;
-   margin-bottom: 27px;
+	margin-bottom: 27px;
 }
 
 .contact-item {
@@ -2371,12 +2371,12 @@ input[type="radio"].visually-hidden {
 .contact-letter {
 	display: block;
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
+	font-style: normal;
 	text-transform: uppercase;
 	font-size: 14px;
-   line-height: 18px;
+	line-height: 18px;
    
-   color: #ffffff;
+	color: #ffffff;
 	background-color: #ee3643;
 
 	padding-top: 10px;
@@ -2397,10 +2397,10 @@ input[type="radio"].visually-hidden {
 
 .footer-nav {
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
+	font-style: normal;
 
-   color: #ffffff;
-   background-color: #32425c;
+	color: #ffffff;
+	background-color: #32425c;
 	
 	border: 0;
 }	
@@ -2461,7 +2461,7 @@ input[type="radio"].visually-hidden {
 
 .footer-nav-first-link {
 	font-size: 18px;
-   line-height: 24px;
+	line-height: 24px;
 
 	color: #ffffff;
 }
@@ -2489,12 +2489,12 @@ input[type="radio"].visually-hidden {
 
 .bottom-address {
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   font-size: 18px;
-   line-height: 24px;
-   width: 335px;
-   margin-left: 3px;
-   margin-right: 50px;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 24px;
+	width: 335px;
+	margin-left: 3px;
+	margin-right: 50px;
 }
 
 .bottom-tel {
@@ -2512,9 +2512,9 @@ input[type="radio"].visually-hidden {
 
 .footer-nav-next-link {
 	font-size: 18px;
-   line-height: 24px;
+	line-height: 24px;
 
-   color: #ffd180;
+	color: #ffd180;
 }
 
 .footer-nav-next-item:hover,
@@ -2530,15 +2530,15 @@ input[type="radio"].visually-hidden {
 
 .footer {
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   font-size: 16px;
-   line-height: 28px;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 28px;
 	
 	background-color: #293449;
-   color: #ffffff;
+	color: #ffffff;
    
-   padding-top: 20px;
-   margin: auto;
+	padding-top: 20px;
+	margin: auto;
 }
 
 .footer-box {
@@ -2554,12 +2554,12 @@ input[type="radio"].visually-hidden {
 
 .footer-protection-text {
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   font-size: 16px;
-   line-height: 18px;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 18px;
 
-   padding-left: 2px;
-   width: 230px;
+	padding-left: 2px;
+	width: 230px;
 }
 
 .footer-social {
@@ -2678,9 +2678,9 @@ input[type="radio"].visually-hidden {
 .footer-feedback-text,
 .footer-copyright-text {
 	font-family: "Cuprum", "Arial", sans-serif;
-   font-style: normal;
-   font-size: 16px;
-   line-height: 18px;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 18px;
 }
 
 .footer-feedback, 
@@ -2715,7 +2715,7 @@ input[type="radio"].visually-hidden {
 }
 
 .modal-error {
-   animation: shake 0.6s;
+	animation: shake 0.6s;
 }
 
 .write-letter {
@@ -2782,11 +2782,11 @@ input[type="radio"].visually-hidden {
 	font-family: "PT Sans", Arial, sans-serif;
 	
 	box-sizing: border-box;
-   width: 100%;
-   color: #a9a9a9;
+	width: 100%;
+	color: #a9a9a9;
 
-   border: 2px solid #dee3e4;
-   border-radius: 4px;
+	border: 2px solid #dee3e4;
+	border-radius: 4px;
 }
 
 .write-name-input,
@@ -2797,14 +2797,14 @@ input[type="radio"].visually-hidden {
 	line-height: 18px;
 	
 	box-sizing: border-box;
-   width: 100%;
-   height: 38px;
-   padding-left: 16px;
+	width: 100%;
+	height: 38px;
+	padding-left: 16px;
 
-   color: #a9a9a9;
+	color: #a9a9a9;
 
-   border: 2px solid #dee3e4;
-   border-radius: 4px;
+	border: 2px solid #dee3e4;
+	border-radius: 4px;
 }
 
 .write-name-input:hover,
@@ -2819,19 +2819,19 @@ input[type="radio"].visually-hidden {
 .write-name-input:focus,
 .write-name-input:active {
 	border-color: #ff5256;
-   outline: none;
+	outline: none;
 }
 
 .letter-email-input:focus,
 .letter-email-input:active {
 	border-color: #ff5256;
-   outline: none;
+	outline: none;
 }
 
 .letter-textarea:focus,
 .letter-textarea:active {
 	border-color: #ff5256;
-   outline: none;
+	outline: none;
 }
 
 .write-name-input::placeholder,
@@ -2979,7 +2979,7 @@ input[type="radio"].visually-hidden {
 
   	background-color: #ffffff;
   	border-top: 7px solid #ff5256;
-   box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.7);
+	box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.7);
 }
 
 .modal-cart-heading {
@@ -3009,8 +3009,8 @@ input[type="radio"].visually-hidden {
 
 .buy-cart-bottom {
 	display: flex;
-   justify-content: space-between;
-   align-items: center;
+	justify-content: space-between;
+	align-items: center;
   	padding: 44px 80px;
 
   	background-color: #f1f1f1;
